@@ -1,13 +1,41 @@
 {
   "rewrites": [
     {
-      "source": "/(.*)",
-      "destination": "/"
+      "source": "/",
+      "destination": "/mohit/index.html"
+    },
+    {
+      "source": "/abhi",
+      "destination": "/abhi/index.html"
+    },
+    {
+      "source": "/abhi",
+      "destination": "/abhi/index2.html"
+    },
+    {
+      "source": "/parichay",
+      "destination": "/parichay/polo/index.html"
+    },
+    {
+      "source": "/parichay",
+      "destination": "/parichay/purpleLabel/index.html"
+    },
+    {
+      "source": "/shreshtha",
+      "destination": "/shreshtha/index.html"
+    },
+    {
+      "source": "/Siddharth",
+      "destination": "/Siddharth/index.html"
+    },
+    {
+      "source": "/yash",
+      "destination": "/yash/index.htm"
     }
   ],
   "headers": [
     {
-      "source": "*/css/(.*)",
+      "source": "/(.*)",
       "headers": [
         {
           "key": "Cache-Control",
